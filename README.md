@@ -1,106 +1,118 @@
-Máquina de Snacks en Java
-Descripción
+---
 
-Este proyecto es una aplicación de consola desarrollada en Java que simula el funcionamiento básico de una máquina expendedora de snacks.
-Permite mostrar un inventario de productos, comprar snacks mediante un identificador, generar un ticket de compra con el total y agregar nuevos productos al inventario.
+#  Máquina de Snacks en Java
 
-El objetivo principal del proyecto fue practicar y reforzar conceptos fundamentales del lenguaje Java, aplicándolos en un sistema funcional y estructurado.
+---
 
-Entorno de desarrollo
+##  Descripción
 
-Lenguaje: Java
+Este proyecto es una aplicación de consola desarrollada en **Java** que simula el funcionamiento básico de una máquina expendedora de snacks.
 
-IDE: IntelliJ IDEA
+Permite:
 
-Tipo de aplicación: Consola
+* Mostrar un inventario de productos
+* Comprar snacks mediante un identificador
+* Generar un ticket de compra con el total
+* Agregar nuevos productos al inventario
 
-Control de versiones: Git
+El objetivo principal del proyecto fue **practicar y reforzar conceptos fundamentales del lenguaje Java**, aplicándolos en un sistema funcional y estructurado.
 
-Repositorio: GitHub
+---
 
-Tipo de proyecto
+## 🛠Entorno de desarrollo
 
-Este proyecto fue realizado como práctica de aprendizaje, siguiendo un curso de Java, con el objetivo de consolidar conocimientos de programación orientada a objetos y colecciones.
+* **Lenguaje:** Java
+* **IDE:** IntelliJ IDEA
+* **Tipo de aplicación:** Consola
+* **Control de versiones:** Git
+* **Repositorio:** GitHub
 
-Funcionalidades principales
+---
 
-Mostrar inventario de snacks disponibles
+## Tipo de proyecto
 
-Comprar snacks mediante ID
+Proyecto realizado como **práctica de aprendizaje**, siguiendo un curso de Java, con el objetivo de consolidar conocimientos de programación orientada a objetos y el uso de colecciones.
 
-Generar un ticket con el detalle de la compra y el total
+---
 
-Agregar nuevos snacks al inventario
+## ⚙ Funcionalidades principales
 
-Manejo de errores en la entrada del usuario
+* Mostrar inventario de snacks disponibles
+* Comprar snacks mediante ID
+* Generar un ticket con el detalle de la compra y el total
+* Agregar nuevos snacks al inventario
+* Manejo de errores en la entrada del usuario
 
-Conceptos y temas aplicados
-Programación Orientada a Objetos (POO)
+---
 
-Definición de clases y objetos
+## Conceptos y temas aplicados
 
-Encapsulación mediante atributos privados y métodos getter/setter
+### 🔹 Programación Orientada a Objetos (POO)
 
-Uso de constructores
+* Definición de clases y objetos
+* Encapsulación mediante atributos privados y métodos getter/setter
+* Uso de constructores
+* Sobrescritura de métodos (`toString`, `equals`, `hashCode`)
 
-Sobrescritura de métodos (toString, equals, hashCode)
+### 🔹 JavaBeans
 
-JavaBeans
+* Clases con atributos privados
+* Constructores
+* Métodos de acceso (`get` y `set`)
+* Uso como modelo de datos (`Snack`)
 
-Clases con atributos privados
+### 🔹 Colecciones
 
-Constructores
+* Uso de la API de `Collections`
+* Manejo de estructuras dinámicas
 
-Métodos de acceso (get y set)
+### 🔹 Listas
 
-Uso como modelo de datos (Snack)
+* Implementación con `ArrayList`
+* Recorridos y manipulación de elementos
 
-Colecciones
+### 🔹 For-each
 
-Uso de la API de Collections
+* Iteración de colecciones utilizando el ciclo `for-each`
 
-Manejo de listas dinámicas para inventarios y carrito de compras
+### 🔹 Métodos estáticos
 
-Listas
+* Uso de métodos y atributos `static` para manejar un inventario global
 
-Implementación con ArrayList
+### 🔹 Argumentos variables
 
-Recorridos y manipulación de elementos
+* Aplicación del concepto dentro del manejo flexible de métodos
 
-For-each
+### 🔹 Excepciones
 
-Iteración de colecciones usando el ciclo for-each
+* Uso de `try`, `catch` y `finally`
+* Manejo de errores por entradas inválidas del usuario
 
-Métodos estáticos
+### 🔹 Expresiones lambda
 
-Uso de métodos y atributos static para manejar un inventario global
+* Aplicadas en prácticas relacionadas con colecciones y procesamiento de datos
 
-Argumentos variables
+### 🔹 Métodos de referencia
 
-Aplicación del concepto dentro del manejo flexible de métodos (según lo visto en el curso)
+* Uso de referencias a métodos como alternativa a expresiones lambda
 
-Excepciones
+### 🔹 Sets
 
-Uso de try, catch y finally
+* Uso del concepto de conjuntos
+* Diferencias entre listas y sets
+* Prevención de elementos duplicados
 
-Manejo de errores por entradas inválidas del usuario
+### 🔹 Interfaces y clases abstractas
 
-Expresiones lambda
+* Comprensión y práctica del uso de interfaces
+* Uso de clases abstractas como base de diseño
 
-Aplicadas en prácticas relacionadas con colecciones y procesamiento de datos
+---
 
-Métodos de referencia
-
-Uso de referencias a métodos como alternativa a expresiones lambda
-
-Sets
-
-Uso del concepto de conjuntos para evitar duplicados y comprender la diferencia frente a listas
-
-Interfaces y clases abstractas
-
-Comprensión y práctica del uso de interfaces y clases abstractas como parte del aprendizaje del curso
-
-Objetivo de aprendizaje
+## 🎯 Objetivo de aprendizaje
 
 El proyecto tiene como finalidad reforzar la lógica de programación, el diseño orientado a objetos y el uso correcto de las herramientas básicas de Java, sentando una base sólida para proyectos más avanzados.
+
+---
+
+### 
